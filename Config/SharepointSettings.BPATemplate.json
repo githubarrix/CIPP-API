@@ -1,0 +1,22 @@
+{
+  "name": "Sharepoint Settings",
+  "style": "Tenant",
+  "Fields": [
+    {
+      "name": "SharepointSettings",
+      "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "Sharing capability",
+          "value": "SharepointSettings.sharingCapability"
+        }
+      ],
+      "StoreAs": "JSON",
+      "API": "Graph",
+      "ExtractFields": [
+        "sharingCapability"
+      ],
+      "URL": "https://graph.microsoft.com/beta/admin/sharepoint/settings"
+    }
+  ]
+}
