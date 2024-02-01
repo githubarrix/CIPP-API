@@ -1,0 +1,16 @@
+{
+  "name": "Test Report",
+  "style": "Tenant",
+  "Fields": [
+    {
+      "name": "Groups",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "displayName",
+          "value": "displayName"
+        }
+      ]
+    }
+  ]
+}
